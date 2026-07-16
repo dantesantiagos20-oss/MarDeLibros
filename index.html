@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<title>Mar de Libros — Librería en Valparaíso | Esmeralda 1124</title>
+<meta name="description" content="Librería Mar de Libros en calle Esmeralda, Valparaíso. Libros nuevos y usados, clásicos de tapa dura y pedidos por encargo. Con gatos de librería.">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Inconsolata:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:#EDF1F4;color:#1C2A34;-webkit-font-smoothing:antialiased}
+  ::selection{background:#3E7C99;color:#fff}
+  @keyframes navega{from{transform:translateX(-18vw)}to{transform:translateX(110vw)}}
+  @keyframes bamboleo{0%,100%{transform:rotate(-3.5deg)}50%{transform:rotate(3.5deg) translateY(-3px)}}
+  @keyframes deriva{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+</style>
+</helmet>
+
+<div ref="{{ rootRef }}" style="font-family:'Source Sans 3',sans-serif;line-height:1.7;color:#1C2A34">
+
+  <div aria-hidden="true" style="position:fixed;inset:0;z-index:40;pointer-events:none;overflow:hidden">
+    <div style="position:absolute;left:0;right:0;bottom:0;height:210px">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position:absolute;bottom:34px;left:0;width:200%;height:96px;opacity:.13;animation:deriva 26s linear infinite"><path d="M0,60 C100,20 200,20 300,60 C400,100 500,100 600,60 C700,20 800,20 900,60 C1000,100 1100,100 1200,60 L1200,120 L0,120 Z" fill="#3E7C99"></path></svg>
+      <div style="position:absolute;bottom:64px;left:0;animation:navega 56s linear infinite;will-change:transform">
+        <div style="position:relative;width:54px;height:46px;opacity:.55;animation:bamboleo 5s ease-in-out infinite;transform-origin:50% 100%">
+          <div style="position:absolute;bottom:13px;left:26px;width:2px;height:32px;background:#16394F"></div>
+          <div style="position:absolute;bottom:15px;left:8px;width:0;height:0;border-bottom:26px solid #3E7C99;border-left:18px solid transparent"></div>
+          <div style="position:absolute;bottom:15px;left:30px;width:0;height:0;border-bottom:20px solid #16394F;border-right:14px solid transparent"></div>
+          <div style="position:absolute;bottom:0;left:0;width:54px;height:13px;background:#16394F;clip-path:polygon(0 0,100% 0,82% 100%,18% 100%)"></div>
+        </div>
+      </div>
+      <div style="position:absolute;bottom:76px;left:0;animation:navega 82s linear infinite;animation-delay:-38s;will-change:transform">
+        <div style="animation:bamboleo 6.5s ease-in-out infinite;animation-delay:-2s;transform-origin:50% 100%">
+          <div style="position:relative;width:54px;height:46px;opacity:.38;transform:scale(.68);transform-origin:bottom left">
+            <div style="position:absolute;bottom:13px;left:26px;width:2px;height:32px;background:#16394F"></div>
+            <div style="position:absolute;bottom:15px;left:8px;width:0;height:0;border-bottom:26px solid #3E7C99;border-left:18px solid transparent"></div>
+            <div style="position:absolute;bottom:15px;left:30px;width:0;height:0;border-bottom:20px solid #16394F;border-right:14px solid transparent"></div>
+            <div style="position:absolute;bottom:0;left:0;width:54px;height:13px;background:#16394F;clip-path:polygon(0 0,100% 0,82% 100%,18% 100%)"></div>
+          </div>
+        </div>
+      </div>
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position:absolute;bottom:0;left:0;width:200%;height:80px;opacity:.17;animation:deriva 18s linear infinite reverse"><path d="M0,60 C100,20 200,20 300,60 C400,100 500,100 600,60 C700,20 800,20 900,60 C1000,100 1100,100 1200,60 L1200,120 L0,120 Z" fill="#16394F"></path></svg>
+    </div>
+  </div>
+
+  <div aria-hidden="true" style="display:flex;height:14px">
+    <span style="flex:1;background:#16394F"></span><span style="flex:1;background:#3E7C99"></span><span style="flex:1;background:#7C97A6"></span><span style="flex:1;background:#1C2A34"></span><span style="flex:1;background:#16394F"></span><span style="flex:1;background:#7C97A6"></span><span style="flex:1;background:#3E7C99"></span><span style="flex:1;background:#1C2A34"></span><span style="flex:1;background:#7C97A6"></span><span style="flex:1;background:#16394F"></span><span style="flex:1;background:#3E7C99"></span><span style="flex:1;background:#1C2A34"></span>
+  </div>
+
+  <nav aria-label="Principal" style="position:sticky;top:0;z-index:50;background:rgba(237,241,244,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(28,42,52,.18)">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:12px 24px;max-width:1040px;margin:0 auto">
+      <a href="#top" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#1C2A34">
+        <img src="img/logo.jpg" alt="Logotipo Mar de Libros" style="height:42px;width:auto;display:block">
+        <span style="font-family:'Literata',serif;font-weight:700;font-size:1.12rem">Mar <em style="font-style:italic;color:#3E7C99">de</em> Libros</span>
+      </a>
+      <div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap">
+        <a href="#catalogo" style="font-size:.86rem;font-weight:600;color:#1C2A34;text-decoration:none;opacity:.75">Catálogo</a>
+        <a href="#opiniones" style="font-size:.86rem;font-weight:600;color:#1C2A34;text-decoration:none;opacity:.75">Opiniones</a>
+        <a href="#visita" style="font-size:.86rem;font-weight:600;color:#1C2A34;text-decoration:none;opacity:.75">Visítanos</a>
+        <a href="tel:+56322593810" style="display:inline-block;background:#16394F;color:#EDF1F4;font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 24px;transition:background .25s ease,transform .2s ease,box-shadow .25s ease" style-hover="background:#3E7C99;transform:translateY(-2px);box-shadow:0 8px 18px rgba(22,57,79,.28)" style-active="transform:translateY(1px) scale(.98);box-shadow:none">Encargar un libro</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" style="padding:70px 0 58px;border-bottom:3px double #1C2A34">
+    <div style="max-width:660px;margin:0 auto;padding:0 24px;text-align:center">
+      <img src="img/logo.jpg" alt="Librería Mar de Libros" style="height:104px;width:auto;display:block;margin:0 auto 22px">
+      <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Librería · Calle Esmeralda, Valparaíso</p>
+      <h1 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;font-size:clamp(2.6rem,7.5vw,4.6rem);margin-top:14px">Un puerto donde<br>fondean <em style="font-style:italic;color:#16394F">los libros</em></h1>
+      <p style="margin:20px auto 0;font-size:1.1rem;color:#33454F">Libros nuevos y usados, clásicos de tapa dura a precios de librería de barrio, y encargos que llegan en pocos días. Atendida por su dueño, con gatos de librería incluidos.</p>
+      <div style="margin-top:28px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+        <a href="#catalogo" style="display:inline-block;background:#16394F;color:#EDF1F4;font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 24px;transition:background .25s ease,transform .2s ease,box-shadow .25s ease" style-hover="background:#3E7C99;transform:translateY(-2px);box-shadow:0 8px 18px rgba(22,57,79,.28)" style-active="transform:translateY(1px) scale(.98);box-shadow:none">Explorar el catálogo</a>
+        <a href="tel:+56322593810" style="display:inline-block;background:transparent;color:#1C2A34;border:1.5px solid #1C2A34;font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 24px;transition:background .25s ease,color .25s ease,transform .2s ease,box-shadow .25s ease" style-hover="background:#1C2A34;color:#EDF1F4;transform:translateY(-2px);box-shadow:0 8px 18px rgba(28,42,52,.24)" style-active="transform:translateY(1px) scale(.98);box-shadow:none">Llamar al 32 259 3810</a>
+      </div>
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;margin-top:42px;display:flex;justify-content:center;gap:36px;flex-wrap:wrap;font-family:'Inconsolata',monospace;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#5B6E78">
+        <span><b style="color:#3E7C99;font-size:1rem">4.4</b> en Google</span>
+        <span><b style="color:#3E7C99;font-size:1rem">117</b> reseñas</span>
+        <span><b style="color:#3E7C99;font-size:1rem">Encargos</b> en 4 días</span>
+      </div>
+    </div>
+  </header>
+
+  <section id="catalogo" style="padding:70px 0">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px">
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;margin-bottom:38px">
+        <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Catálogo</p>
+        <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;font-size:clamp(1.9rem,4.5vw,2.8rem);margin-top:6px">Qué vas a encontrar</h2>
+      </div>
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px">
+        <div style="padding:0 0 26px;border-bottom:1px solid rgba(28,42,52,.18)">
+          <h3 style="font-family:'Literata',serif;font-weight:600;font-size:1.2rem;color:#16394F;margin-bottom:6px">Clásicos de tapa dura</h3>
+          <p style="font-size:.95rem;color:#3D4E58">Ediciones firmes y bonitas de los imprescindibles, a precios que sorprenden hasta a quienes compran por internet.</p>
+        </div>
+        <div style="padding:0 0 26px;border-bottom:1px solid rgba(28,42,52,.18)">
+          <h3 style="font-family:'Literata',serif;font-weight:600;font-size:1.2rem;color:#16394F;margin-bottom:6px">Libros usados con historia</h3>
+          <p style="font-size:.95rem;color:#3D4E58">Estantes de segunda mano donde siempre aparece una joya: literatura, ensayo y hallazgos inesperados.</p>
+        </div>
+        <div style="padding:0 0 26px;border-bottom:1px solid rgba(28,42,52,.18)">
+          <h3 style="font-family:'Literata',serif;font-weight:600;font-size:1.2rem;color:#16394F;margin-bottom:6px">Novedades y originales</h3>
+          <p style="font-size:.95rem;color:#3D4E58">Una selección cuidada de títulos nuevos que se renueva con las llegadas de cada semana.</p>
+        </div>
+        <div style="padding:0 0 26px;border-bottom:1px solid rgba(28,42,52,.18)">
+          <h3 style="font-family:'Literata',serif;font-weight:600;font-size:1.2rem;color:#16394F;margin-bottom:6px">Pedidos por encargo</h3>
+          <p style="font-size:.95rem;color:#3D4E58">Si el libro que buscas no está en tienda, lo encargamos: suele llegar en unos cuatro días. Basta con dejarnos el dato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="novedades" style="padding:0 0 70px">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px">
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;margin-bottom:38px">
+        <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Novedades</p>
+        <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;font-size:clamp(1.9rem,4.5vw,2.8rem);margin-top:6px">Recién llegados al mesón</h2>
+      </div>
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px">
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-brilla.webp" alt="Donde todo brilla, de Alice Kellen" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-mascara.webp" alt="El Rey de la Máscara Oscura, de Javiera Valenzuela" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-noche.webp" alt="La noche que paramos el mundo, de Alexandra Roma" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-valpo.jpg" alt="Valparaíso Histórico y Cotidiano, de Piero Castagneto" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-lobos.webp" alt="Mujeres que corren con los lobos, de Clarissa Pinkola Estés" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-yvetot.webp" alt="Volver a Yvetot, de Annie Ernaux" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-luisa.webp" alt="Autobiografía de Luisa Toledo" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-rupi.webp" alt="Todo lo que necesito existe ya en mí, de Rupi Kaur" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-monje.webp" alt="El Monje y el Millonario, de Vibhor Kumar Singh" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+        <figure style="flex:0 0 190px;margin:0;border-radius:8px;overflow:hidden;background:#fff;scroll-snap-align:start;border:1px solid rgba(28,42,52,.14)"><img src="img/nov-king.webp" alt="Muro de novelas de Stephen King en la librería" loading="lazy" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"></figure>
+      </div>
+      <p style="margin-top:10px;font-size:.85rem;color:#5B6E78;font-style:italic">Una muestra de lo que va llegando. El catálogo completo se descubre en tienda; y si un título no está, se encarga.</p>
+    </div>
+  </section>
+
+  <section data-fondo-oscuro style="background:#16394F;color:#EDF1F4;padding:64px 0;text-align:center">
+    <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;max-width:1040px;margin:0 auto;padding:0 24px">
+      <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#8FB6C6">La casa</p>
+      <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;font-size:clamp(1.8rem,4.5vw,2.6rem);margin:8px auto 14px;max-width:22ch">Los gatos eligen primero</h2>
+      <p style="max-width:52ch;margin:0 auto;opacity:.9">En Mar de Libros te recibe un gato en la puerta, dispuesto a acompañarte entre los estantes. Es parte del encanto de una librería de barrio de verdad: se conversa, se recomienda y se busca hasta encontrar.</p>
+    </div>
+  </section>
+
+  <section id="opiniones" style="padding:70px 0">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px">
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;margin-bottom:38px">
+        <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Opiniones</p>
+        <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;font-size:clamp(1.9rem,4.5vw,2.8rem);margin-top:6px">Lo que dicen los lectores</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px">
+        <article data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;border:1px solid rgba(28,42,52,.18);padding:26px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.55)">
+          <div aria-hidden="true" style="color:#3E7C99;letter-spacing:.12em">★★★★★</div>
+          <p style="font-size:.95rem;font-family:'Literata',serif;font-style:italic">"Tiene muy buenos precios, incluso más baratos que comprar por internet. Si no tienen el libro, lo encargan y llega en unos cuatro días."</p>
+          <cite style="font-family:'Inconsolata',monospace;font-style:normal;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#5B6E78;margin-top:auto">Camila Fuentes · Reseña de Google</cite>
+        </article>
+        <article data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;border:1px solid rgba(28,42,52,.18);padding:26px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.55)">
+          <div aria-hidden="true" style="color:#3E7C99;letter-spacing:.12em">★★★★★</div>
+          <p style="font-size:.95rem;font-family:'Literata',serif;font-style:italic">"El señor que atiende es muy amable y los gatos, cariñosísimos. Cien por ciento recomendada."</p>
+          <cite style="font-family:'Inconsolata',monospace;font-style:normal;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#5B6E78;margin-top:auto">Rodrigo Muñoz · Reseña de Google</cite>
+        </article>
+        <article data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;border:1px solid rgba(28,42,52,.18);padding:26px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.55)">
+          <div aria-hidden="true" style="color:#3E7C99;letter-spacing:.12em">★★★★★</div>
+          <p style="font-size:.95rem;font-family:'Literata',serif;font-style:italic">"Mezcla de libros originales y usados, con una selección de clásicos de tapa dura a muy buen precio."</p>
+          <cite style="font-family:'Inconsolata',monospace;font-style:normal;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#5B6E78;margin-top:auto">Javiera Pizarro · Reseña de Google</cite>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" style="padding:70px 0">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px">
+      <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">El local</p>
+      <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;margin:6px 0 30px;font-size:clamp(1.9rem,4.5vw,2.8rem)">Conócenos por dentro</h2>
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:26px;max-width:860px;margin:0 auto">
+        <figure style="margin:0;background:#fff;padding:9px 9px 12px;border:1px solid rgba(28,42,52,.14);box-shadow:0 10px 22px rgba(12,32,40,.12);transform:rotate(-1.4deg);transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:rotate(0deg) translateY(-5px);box-shadow:0 16px 30px rgba(12,32,40,.18)"><img src="img/gato.jpg" alt="Uno de los gatos de la librería sentado en el pasillo central" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block"><figcaption style="margin-top:9px;text-align:center;font-family:'Inconsolata',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#5B6E78">El anfitrión oficial</figcaption></figure>
+        <figure style="margin:0;background:#fff;padding:9px 9px 12px;border:1px solid rgba(28,42,52,.14);box-shadow:0 10px 22px rgba(12,32,40,.12);transform:rotate(1.2deg);transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:rotate(0deg) translateY(-5px);box-shadow:0 16px 30px rgba(12,32,40,.18)"><img src="img/fachada.jpg" alt="Fachada de Mar de Libros en calle Esmeralda" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block"><figcaption style="margin-top:9px;text-align:center;font-family:'Inconsolata',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#5B6E78">Esmeralda 1124</figcaption></figure>
+        <figure style="margin:0;background:#fff;padding:9px 9px 12px;border:1px solid rgba(28,42,52,.14);box-shadow:0 10px 22px rgba(12,32,40,.12);transform:rotate(-1deg);transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:rotate(0deg) translateY(-5px);box-shadow:0 16px 30px rgba(12,32,40,.18)"><img src="img/interior.jpg" alt="Pasillo interior de la librería con estanterías repletas" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block"><figcaption style="margin-top:9px;text-align:center;font-family:'Inconsolata',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#5B6E78">Los pasillos</figcaption></figure>
+        <figure style="margin:0;background:#fff;padding:9px 9px 12px;border:1px solid rgba(28,42,52,.14);box-shadow:0 10px 22px rgba(12,32,40,.12);transform:rotate(1.6deg);transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:rotate(0deg) translateY(-5px);box-shadow:0 16px 30px rgba(12,32,40,.18)"><img src="img/feria.webp" alt="Stand de Mar de Libros en una feria del libro" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 45%;display:block"><figcaption style="margin-top:9px;text-align:center;font-family:'Inconsolata',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#5B6E78">En ferias del libro</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="visita" style="padding:0 0 70px">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:48px">
+        <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease">
+          <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Horario</p>
+          <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;margin:6px 0 26px;font-size:clamp(1.9rem,4.5vw,2.8rem)">Cuándo venir</h2>
+          <ul style="list-style:none;border-top:2px solid #1C2A34">
+            <li data-dia="1" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Lunes</span><time style="font-family:'Inconsolata',monospace">10:00 – 19:00</time></li>
+            <li data-dia="2" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Martes</span><time style="font-family:'Inconsolata',monospace">10:00 – 19:00</time></li>
+            <li data-dia="3" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Miércoles</span><time style="font-family:'Inconsolata',monospace">10:00 – 19:00</time></li>
+            <li data-dia="4" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Jueves</span><time style="font-family:'Inconsolata',monospace">10:00 – 19:00</time></li>
+            <li data-dia="5" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Viernes</span><time style="font-family:'Inconsolata',monospace">10:00 – 19:00</time></li>
+            <li data-dia="6" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Sábado</span><time style="font-family:'Inconsolata',monospace">12:30 – 17:00</time></li>
+            <li data-dia="0" style="display:flex;justify-content:space-between;padding:11px 4px;border-bottom:1px solid rgba(28,42,52,.18);font-size:.94rem"><span style="font-weight:600">Domingo</span><span style="color:#3E7C99;font-weight:600">Cerrado</span></li>
+          </ul>
+        </div>
+        <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease">
+          <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Ubicación</p>
+          <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;margin:6px 0 26px;font-size:clamp(1.9rem,4.5vw,2.8rem)">Dónde encontrarnos</h2>
+          <p style="font-family:'Literata',serif;font-weight:700;font-size:1.45rem;line-height:1.35;margin-bottom:12px">Esmeralda 1124<br>Valparaíso</p>
+          <p style="margin-bottom:16px;font-size:.95rem;color:#3D4E58">En plena calle Esmeralda, a pasos de la plaza Aníbal Pinto y del corazón histórico del puerto.</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Librer%C3%ADa+Mar+de+Libros+Esmeralda+1124+Valpara%C3%ADso" target="_blank" rel="noopener" style="display:inline-block;background:transparent;color:#16394F;border:1.5px solid #16394F;font-weight:600;font-size:.88rem;text-decoration:none;padding:10px 20px;transition:background .25s ease,color .25s ease,transform .2s ease,box-shadow .25s ease" style-hover="background:#16394F;color:#EDF1F4;transform:translateY(-2px);box-shadow:0 8px 18px rgba(22,57,79,.24)" style-active="transform:translateY(1px) scale(.98);box-shadow:none">Cómo llegar ↗</a>
+        </div>
+      </div>
+
+      <div data-reveal style="opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;margin-top:40px;position:relative;border:3px double #1C2A34;padding:10px;background:#fff">
+        <div style="position:relative;height:440px;overflow:hidden;background:#dfe6ea">
+          <iframe title="Mapa de Librería Mar de Libros, Esmeralda 1124, Valparaíso" src="https://www.google.com/maps?q=Esmeralda%201124%2C%20Valpara%C3%ADso%2C%20Chile&z=16&output=embed" style="border:0;width:100%;height:100%;display:block" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <div style="position:absolute;top:16px;left:16px;max-width:260px;background:rgba(237,241,244,.96);border:1.5px solid #16394F;padding:16px 18px;box-shadow:0 8px 24px rgba(12,32,40,.18)">
+            <p style="font-family:'Inconsolata',monospace;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:#3E7C99;margin-bottom:6px">Librería Mar de Libros</p>
+            <p style="font-family:'Literata',serif;font-weight:700;font-size:1.15rem;line-height:1.3;color:#1C2A34">Esmeralda 1124<br>Valparaíso, Chile</p>
+            <p style="margin-top:8px;font-size:.82rem;color:#3D4E58">Lun a Vie 10–19 · Sáb 12:30–17</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-top:3px double #1C2A34;text-align:center;padding:76px 0">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px">
+      <p style="font-family:'Inconsolata',monospace;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:#3E7C99">Encargos</p>
+      <h2 style="font-family:'Literata',serif;font-weight:700;line-height:1.12;font-size:clamp(2rem,5.5vw,3.2rem);max-width:20ch;margin:8px auto 14px">¿Buscas un libro difícil?</h2>
+      <p style="max-width:48ch;margin:0 auto 28px;color:#3D4E58">Llámanos con el título y el autor. Lo buscamos, lo encargamos y te avisamos cuando esté en el mesón.</p>
+      <a href="tel:+56322593810" style="display:inline-block;background:#16394F;color:#EDF1F4;font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 24px;transition:background .25s ease,transform .2s ease,box-shadow .25s ease" style-hover="background:#3E7C99;transform:translateY(-2px);box-shadow:0 8px 18px rgba(22,57,79,.28)" style-active="transform:translateY(1px) scale(.98);box-shadow:none">Llamar al 32 259 3810</a>
+    </div>
+  </section>
+
+  <div aria-hidden="true" style="display:flex;height:14px">
+    <span style="flex:1;background:#3E7C99"></span><span style="flex:1;background:#1C2A34"></span><span style="flex:1;background:#16394F"></span><span style="flex:1;background:#7C97A6"></span><span style="flex:1;background:#3E7C99"></span><span style="flex:1;background:#16394F"></span><span style="flex:1;background:#1C2A34"></span><span style="flex:1;background:#7C97A6"></span><span style="flex:1;background:#16394F"></span><span style="flex:1;background:#3E7C99"></span><span style="flex:1;background:#7C97A6"></span><span style="flex:1;background:#1C2A34"></span>
+  </div>
+
+  <footer style="padding:30px 0;font-size:.8rem;color:#5B6E78">
+    <div style="max-width:1040px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <span>© <span data-anio></span> Librería Mar de Libros · Valparaíso</span>
+      <a href="tel:+56322593810" style="color:inherit">+56 32 259 3810</a>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.rootRef = React.createRef();
+  }
+  componentDidMount() {
+    const root = this.rootRef.current;
+    if (!root) return;
+
+    const anio = root.querySelector('[data-anio]');
+    if (anio) anio.textContent = new Date().getFullYear();
+
+    const hoy = new Date().getDay();
+    root.querySelectorAll('[data-dia]').forEach(li => {
+      if (Number(li.dataset.dia) === hoy) li.style.background = 'rgba(62,124,153,.16)';
+    });
+
+    // Resaltado de palabras al pasar el mouse (como destacador sobre un libro)
+    const wrapWords = (el) => {
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      const nodes = [];
+      while (walker.nextNode()) {
+        const n = walker.currentNode;
+        if (n.textContent.trim() && !n.parentElement.closest('a,[data-w]')) nodes.push(n);
+      }
+      nodes.forEach(n => {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach(part => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+          const s = document.createElement('span');
+          s.setAttribute('data-w', '');
+          s.textContent = part;
+          s.style.transition = 'background-color .16s ease, box-shadow .16s ease, color .16s ease';
+          s.style.borderRadius = '2px';
+          frag.appendChild(s);
+        });
+        n.parentNode.replaceChild(frag, n);
+      });
+    };
+    root.querySelectorAll('h1,h2,h3,p,cite,figcaption,li').forEach(wrapWords);
+    root.addEventListener('mouseover', (e) => {
+      const w = e.target.closest && e.target.closest('[data-w]');
+      if (!w) return;
+      const oscuro = !!w.closest('[data-fondo-oscuro]');
+      const tinta = oscuro ? 'rgba(143,182,198,.38)' : 'rgba(62,124,153,.26)';
+      w.style.backgroundColor = tinta;
+      w.style.boxShadow = '0 0 0 3px ' + tinta;
+      w.style.color = oscuro ? '#FFFFFF' : '#16394F';
+    });
+    root.addEventListener('mouseout', (e) => {
+      const w = e.target.closest && e.target.closest('[data-w]');
+      if (!w) return;
+      w.style.backgroundColor = '';
+      w.style.boxShadow = '';
+      w.style.color = '';
+    });
+
+    const els = root.querySelectorAll('[data-reveal]');
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) {
+      els.forEach(e => { e.style.opacity = 1; e.style.transform = 'none'; });
+      return;
+    }
+    const mostrar = (el) => { el.style.opacity = 1; el.style.transform = 'none'; };
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          mostrar(e.target);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    els.forEach(el => io.observe(el));
+    // Respaldo: si el observer no dispara (p. ej. iframes), revelar igual
+    setTimeout(() => {
+      els.forEach(el => { if (getComputedStyle(el).opacity === '0') mostrar(el); });
+    }, 700);
+  }
+  renderVals() {
+    return { rootRef: this.rootRef };
+  }
+}
+</script>
+</body>
+</html>
